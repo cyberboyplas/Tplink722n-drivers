@@ -109,7 +109,6 @@ read
 
 modomonitor() {
 comprobrarinterfaz
-sudo rmmod r8188eu.ko
 sudo modprobe 8188eu
 echo -e "${amarillo}- ${cyan}Desconecta tu antena, despues conectala y preciona enter para continuar" && sleep 1
 read
@@ -152,7 +151,7 @@ case $polla in
             1 | 1.)
             echo
             echo -e "${verde}--------------------------------------------------------------------------------------------"
-            echo -e "${amarillo}- ${cyan}Recuerda ${blanco}no detener el proceso, esto podría tardar un poco dependiendo de la conexión."
+            echo -e "${amarillo}- ${cyan}Recuerda ${blanco}no detener el proceso, esto podría tardar un poco dependiendo de la conexión y del procesador."
             echo -e "  Suele tardar más si se actualizan los repositorios. Y si se salta puede que no funcione "
             echo -e "  la instalación."
             echo
