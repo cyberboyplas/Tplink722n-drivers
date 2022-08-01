@@ -16,3 +16,19 @@ cd Tplink722n-drivers
 ```
 bash requirements.sh
 ```
+
+- Instalación rápida:
+
+```
+git clone https://github.com/WhBeatZ/Tplink722n-drivers.git && cd Tplink722n-drivers && chmod +x * && bash requirements.sh
+```
+
+<h4>Funciona en:</h4>
+
+- Kali Linux ✓
+
+- Termux ✓
+
+- No root ✗
+
+- Root ✓
