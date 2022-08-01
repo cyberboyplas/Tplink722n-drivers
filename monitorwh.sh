@@ -42,7 +42,6 @@ case $mierdaca in
                cd files
                unzip drivers.zip
                cd drivers
-               sudo -i
                echo "blacklist r8188eu" > "/etc/modprobe.d/realtek.conf"
                sh -c "$(curl -fsSL https://raw.githubusercontent.com/KanuX-14/rtl8188eus/v5.3.9/build.sh)"
                echo
@@ -67,7 +66,6 @@ case $mierdaca in
                cd files
                unzip drivers.zip
                cd drivers
-               sudo -i
                echo "blacklist r8188eu" > "/etc/modprobe.d/realtek.conf"
                sh -c "$(curl -fsSL https://raw.githubusercontent.com/KanuX-14/rtl8188eus/v5.3.9/build.sh)"
                echo
