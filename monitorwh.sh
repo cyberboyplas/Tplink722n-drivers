@@ -67,7 +67,7 @@ case $mierdaca in
                unzip drivers.zip
                cd drivers
                echo "blacklist r8188eu" > "/etc/modprobe.d/realtek.conf"
-               sh -c "$(curl -fsSL https://raw.githubusercontent.com/KanuX-14/rtl8188eus/v5.3.9/build.sh)"
+               sh -c "$(curl -fsSL https://raw.githubusercontent.com/KanuX-14/rtl8188eus/v5.3.9/scripts/build.sh)"
                echo
                echo -e "${amarillo}- ${verde}Instalación completada!"
                sleep 3
